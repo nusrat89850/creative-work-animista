@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    width: 1440px;
+    margin: auto;
+    max-width: 100%;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* header style starts */
+header{
+   background-color: #fffcf5;
+   padding: 28px 0;
+}
+.header-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 29px;
+}
+nav a{
+font-size: 20px;
+font-weight: 500;
+line-height: 27.1px;
+letter-spacing: 0.005em;
+color: #385F96;
+}
+.btn{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: #ffffff;
+width: Hug (143px)px;
+height: Hug (52px)px;
+padding: 14px 41px 14px 41px;
+gap: 10px;
+border-radius: 30px;
+background: #385F96;
+}
+.hero-section{
+    color: #FFFCF5;
+    height: 657px;
+    padding-top: 48px;
+    margin-top: 100px;
+}
+.hero-container{
+    display: flex;
+    position: relative;
+}
+.hero-container > * {
+    flex-basis: 100%;
+}
+.hero-img{
+    width: 173px;
+height: 186px;
+position: absolute;
+z-index: -1;
+left: -7%;
+top: 5%;
+}
+.hero-left{
+    margin-right: 268px;
+    padding-top: 120px;
+}
+.hero-left h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 65.04px;
+letter-spacing: 0.005em;
+color: #385F96;
+}
+.hero-left p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: justified;
+margin-top: 28px;
+margin-bottom: 36px;
+color: #4E4E4E;
+}
+.hero-left h1::first-letter{
+    font-size: 90px;
+    font-style: italic;
+}
+.hero-left p::first-line{
+    font-style: italic;
+}
+a:hover {
+    background-color: #4E4E4E;
+    transition-duration: 1s;
+}
+
+.btn-primary{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    width: Hug (143px)px;
+    height: Hug (52px)px;
+    padding: 14px 41px 14px 41px;
+    gap: 10px;
+    border-radius: 30px;
+    background: #385F96;
+}
+.service-container {
+    display: flex;
+    gap: 166px;
+    margin-bottom: 180px;
+}
+.service-left img {
+    width: 477px;
+height: 436px;
+}
+.line{
+    width: 80px;
+height: 5px;
+margin-top: 69px;
+}
+.service-right h1 {
+    font-family: "Poppins", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 48.78px;
+letter-spacing: 0.005em;
+color: #385F96;
+width: 526px;
+height: 74px;
+margin-bottom: 39px;
+margin-top: 8px;
+}
+.service-right h1::first-letter {
+    font-size: 60px;
+}
+.service-right p {
+    font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #4E4E4E;
+width: 493px;
+margin-bottom: 29px;
+/* height: 72px; */
+}
+.service-right p::first-letter {
+    font-size: 24px;
+}
+.service2-container{
+    display: flex;
+    gap: 250px;
+    background-image: url("./images/Rectangle10.png");
+    width: 1440px;
+height: 614px;
+background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+.service2-left {
+    margin-top: 217.5px;
+    padding-left: 130px;
+}
+.service2-left h1{
+font-size: 36px;
+font-weight: 700;
+line-height: 48.78px;
+letter-spacing: 0.005em;
+color: #385F96;
+width: 466px;
+height: 98px;
+margin-bottom: 28px;
+}
+.service2-left h1::first-letter {
+    font-size: 56px;
+}
+
+.service2-right img {
+    width: 472px;
+height: 391px;
+}
+.footer {
+    background: #385F96;
+    width: 1440px;
+    height: 75px;
+    align-items: center;
+}
+.footer p{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+margin-left: 490px;
+padding-top: 25px;
+color: #ffffff;
+}
+.footer:hover {
+    background-color: #4E4E4E;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.service2-container {
+    position: relative;
+    flex-direction: row;
+
+}
+.service2-container rectangle{
+    max-width: 100%;
+    height: 614px;
+}
+.service2-left {
+    position: absolute;
+    
+}
+.service2-right {
+    position: absolute;
+    right: 100px;
+    bottom: 10%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .header-container{
+        flex-direction: column;
+    }
+  }
